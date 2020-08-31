@@ -1,0 +1,10 @@
+CREATE TABLE `theatre_seat_booking` (
+  `theatre_id` int NOT NULL,
+  `user_id` int NOT NULL,
+  `theatre_name` varchar(45) NOT NULL,
+  `booking_slot` int NOT NULL,
+  `seat_number` varchar(45) NOT NULL,
+  `booking_status` int NOT NULL,
+  `booking_date` datetime NOT NULL,
+  `movie_name` varchar(45) NOT NULL
+)

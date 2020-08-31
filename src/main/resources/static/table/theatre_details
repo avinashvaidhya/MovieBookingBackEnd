@@ -1,0 +1,6 @@
+CREATE TABLE `theatre_details` (
+  `theatre_name` varchar(45) NOT NULL,
+  `seat_number` int NOT NULL,
+  `status` varchar(45) NOT NULL,
+  UNIQUE KEY `theatre_id` (`theatre_name`,`seat_number`)
+)
